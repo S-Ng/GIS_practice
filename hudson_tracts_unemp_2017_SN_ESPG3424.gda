@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>hudson_tracts_unemp_2017_SN_ESPG3424</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>hudson_tracts_unemp_2017_SN_ESPG3424.shp</path>
+            </datasource>
+            <layername>hudson_tracts_unemp_2017_SN_ESPG3424</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>STATEFP</var>
+                <var>COUNTYFP</var>
+                <var>TRACTCE</var>
+                <var>GEOID</var>
+                <var>
+                    A17005_001
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    A17005_002
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    A17005_003
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Unemp_rate
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    LISA_I
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>LISA_CL</var>
+                <var>
+                    LISA_P
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>hudson_tracts_unemp_2017_SN_ESPG3424_weights</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>rook</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>hudson_tracts_unemp_2017_SN_ESPG3424_weights.gal</path>
+                        <id_variable>GEOID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>165</num_observations>
+                        <min_neighbors>1</min_neighbors>
+                        <max_neighbors>13</max_neighbors>
+                        <mean_neighbors>5.1151515151515152</mean_neighbors>
+                        <median_neighbors>5</median_neighbors>
+                        <non_zero_perc>3.1000918273645546</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>Unemp_rate</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
