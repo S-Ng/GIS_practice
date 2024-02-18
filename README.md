@@ -1,2 +1,3 @@
 Chronical of Simon's GIS journey of enlightenment. <br />
-Starting with a humble OpenCourseware course from MIT (https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022), I intend to become familiar with QGIS and then to begin learning how to integrate Python. 
+22 January, 2024: Starting with a humble OpenCourseware course from MIT (https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022), I intend to become familiar with QGIS and then to begin learning how to integrate Python. <br />
+17 February, 2024: Big progress. I wrote some code in the QGIS python consol. To start, I followed a tutorial by Ujaval Gandhi (https://www.qgistutorials.com/sl/docs/3/getting_started_with_pyqgis.html). Then I went wild, adding pandas to build off the tutorial and start translating my general python skills to PyQGIS.
