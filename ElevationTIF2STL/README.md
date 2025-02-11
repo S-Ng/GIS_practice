@@ -1,4 +1,4 @@
-Just-for-fun project to 3D-print a model of Engadin skimarathon in Switzerland as a gift for a friend. Aiming to use new GIS coding skills to use publically available elevation data. The project has 5 steps: <br><br>
+Just-for-fun project to 3D-print a model of Engadin skimarathon in Switzerland as a gift for a friend. Aiming to use new GIS coding skills to use publically available elevation data. The project has 5 steps: <br>
 
   1. Select area of interest from an open source Swiss elevation dataset (https://www.swisstopo.admin.ch/en/height-model-swissalti3d). I used "selection by polygon" at 2.0m resolution to obtain a csv file with links to tiles covering the entire Engadin Ski Marathon and surrounding mountains.<br>
   2. Merge linked GeoTiff tiles in exported csv file into one file. This is accomplished using the scripts from 241217 or 250210. <br>
