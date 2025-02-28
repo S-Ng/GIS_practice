@@ -5,7 +5,7 @@ import pandas as pd
 m = leafmap.Map()
 m
 
-df = pd.DataFrame([[1,2,3,4][5,6,7,8]])
+df = pd.DataFrame([[1,2,3,4],[5,6,7,8]])
 print(df)
 
 
